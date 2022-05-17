@@ -1,6 +1,10 @@
 .header--section {
   background-color: var(--brandNavy);
 }
+
+.header--section__div {
+  padding: 3rem 2rem;
+}
 .header--section__title {
   font-size: 2.7rem;
   color: var(--brandWhite);
@@ -24,4 +28,6 @@
   font-size: 1rem;
   font-weight: 500;
   background-color: var(--brandGreen);
+  padding: 1rem 6rem;
+  max-width: 100%;
 }
