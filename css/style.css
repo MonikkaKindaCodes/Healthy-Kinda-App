@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./variables.css);
 @import url(./grid.css);
-@import url(./header.css);
+@import url(./headerSection.css);
+@import url(./headerAside.css);
 @import url(./main.css);
 @import url(./mainTop.css);
