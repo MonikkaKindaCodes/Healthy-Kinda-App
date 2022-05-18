@@ -7,7 +7,7 @@
 
 .header--aside__top {
   margin-top: 3rem;
-  margin-bottom: 40rem;
+  margin-bottom: 30rem;
 }
 
 .header--aside__topTitle,
@@ -28,6 +28,14 @@
   margin-bottom: 2rem;
   text-decoration: none;
   color: var(--brandMediumDarkGray);
+}
+
+.header--aside__notifications {
+  margin-left: 1rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 45%;
+  color: var(--brandWhite);
+  background-color: var(--brandRed);
 }
 
 .fa-solid,
