@@ -1,6 +1,7 @@
 .header--section {
   max-width: 17%;
   grid-area: headerAside;
+  border-right: 0.5px dotted var(--brandMediumLightGray);
 }
 
 .header--section__div {
