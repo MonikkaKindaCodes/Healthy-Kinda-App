@@ -1,0 +1,9 @@
+.section {
+  display: flex;
+  flex-grow: 1;
+}
+.section--top {
+  display: flex;
+  max-height: 301.59px;
+  padding: 3rem 2rem;
+}

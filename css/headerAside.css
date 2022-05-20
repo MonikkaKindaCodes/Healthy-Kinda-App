@@ -2,7 +2,9 @@
   background-color: var(--brandLightBlue);
   display: flex;
   flex-direction: column;
-  padding: 3rem 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
 }
 
 .header--aside__top {

@@ -1,3 +1,7 @@
-.main {
+.section {
   grid-area: main;
+}
+
+img {
+  width: 300px;
 }
