@@ -4,11 +4,237 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6de49cb9c4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Healthy Kinda App</title>
+    <title>Planlife.</title>
   </head>
   <body>
-    <h1>Healthy Kinda App</h1>
+    <div class="container">
+      <aside class="sidebar--header">
+        <div class="sidebar--header__div">
+          <h1 class="sidebar--header__title">
+            Plan<span class="sidebar--header__span">life.</span>
+          </h1>
+          <p class="sidebar--header__subText">Healthy meals, healthy life.</p>
+          <a class="sidebar--header__button">+ Create New</a>
+        </div>
+        <section class="sidebar--menu">
+          <div class="sidebar--menu__top">
+            <h4 class="sidebar--menu__topTitle">Menu</h4>
+            <nav class="sidebar--menu__mainNav">
+              <a href="#" class="sidebar--menu__mainLink"
+                ><i class="fa-solid fa-gauge-high"></i>Dashboard</a
+              ><a href="#" class="sidebar--menu__mainLink"
+                ><i class="fa-solid fa-magnifying-glass"></i>Discover Recipes</a
+              ><a href="#" class="sidebar--menu__mainLink"
+                ><i class="fa-solid fa-envelope-open-text"></i>My Recipes</a
+              ><a href="#" class="sidebar--menu__mainLink"
+                ><i class="fa-regular fa-user"></i>Clients</a
+              ><a href="#" class="sidebar--menu__mainLink"
+                ><i class="fa-regular fa-calendar-check"></i>Check-Ins</a
+              >
+              <a href="#" class="sidebar--menu__mainLink"
+                ><i class="fa-regular fa-comment"></i>Messages
+                <span class="sidebar--menu__notifications">99+</span></a
+              >
+            </nav>
+          </div>
+          <div class="sidebar--menu__bottom">
+            <h4 class="sidebar--menu__bottomTitle">Your Account</h4>
+            <nav class="sidebar--menu__secondaryNav">
+              <a href="#" class="sidebar--menu__secondaryLink"
+                ><i class="fa-solid fa-gears"></i>Account</a
+              >
+              <a href="#" class="sidebar--menu__secondaryLink"
+                ><i class="fa-regular fa-circle-question"></i>Help & Support</a
+              >
+              <a href="#" class="sidebar--menu__secondaryLink"
+                ><i class="fa-solid fa-arrow-right-from-bracket"></i>Log Out</a
+              >
+            </nav>
+          </div>
+        </section>
+      </aside>
+      <main class="main">
+        <section class="main--top">
+          <div class="main--top__div">
+            <div class="main--top__intro">
+              <p class="main--top__welcome">
+                Hi
+                <span class="main--top__name">Name,</span>
+              </p>
+              <h2 class="main--top__title">Discover Recipes</h2>
+            </div>
+            <div class="main--top__search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                class="main--top__input"
+                type="search"
+                placeholder="Search for Recipes, Ingredients, and Tags"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="section--hero">
+          <img
+            src="./img/hero-Img.jpg"
+            alt="Recipe photo"
+            class="section--hero__img"
+          />
+          <div class="section--bookmark">
+            <i class="fa-solid fa-bowl-rice"></i>
+            <p class="section--bookmark__text">
+              You have 3 new recipes in your bookmark.
+            </p>
+            <a href="#" class="section--bookmark__link">See bookmark</a>
+          </div>
+        </section>
+        <section class="section--categories">
+          <h3 class="section--categories__title">Categories</h3>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-cheese"></i>
+            <p class="section--categories__description">Appetizers & Snacks</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-cake-candles"></i>
+            <p class="section--categories__description">Baking Recipes</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-burger"></i>
+            <p class="section--categories__description">Barbeque & Grilling</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-bacon"></i>
+            <p class="section--categories__description">Breakfast & Brunch</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-drumstick-bite"></i>
+            <p class="section--categories__description">Chicken Recipes</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-gift"></i>
+            <p class="section--categories__description">Holiday Recipes</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-hourglass"></i>
+            <p class="section--categories__description">Quick & Easy</p>
+          </div>
+          <div class="section--categories__pod">
+            <i class="fa-solid fa-leaf"></i>
+            <p class="section--categories__description">Healthy Recipes</p>
+          </div>
+        </section>
+        <section class="section--recipes">
+          <h3 class="section--recipes__title">Suggested Recipes for you</h3>
+          <p class="section--recipes__subtext">
+            Because you searched for Salad Dressing
+          </p>
+          <div class="section--recipes__arrows">
+            <i class="fa-solid fa-chevron-left"></i
+            ><i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="section--recipes__sections">
+            <div class="section--recipes__pod">
+              <img
+                src="./img/recipeOne.jpg"
+                alt=""
+                class="section--recipes__img"
+              />
+              <p class="section--recipes__title">
+                Udon with Chicken and Garlic Peanut Dressing
+              </p>
+              <p class="section--recipes__description">
+                Prep fava beans once, eat them for days on ricotta topped toast,
+                cream...
+              </p>
+              <br />
+              <div class="section--recipes__timer">
+                <i class="fa-regular fa-clock"></i>
+                <span class="section--recipes__cookTime">1</span>
+              </div>
+              <div class="section--recipes__rating">
+                star star star star star
+              </div>
+            </div>
+          </div>
+          <div class="section--recipes__sections">
+            <div class="section--recipes__pod">
+              <img
+                src="./img/recipeTwo.jpg"
+                alt=""
+                class="section--recipes__img"
+              />
+              <p class="section--recipes__title">
+                Udon with Chicken and Garlic Peanut Dressing
+              </p>
+              <p class="section--recipes__description">
+                Prep fava beans once, eat them for days on ricotta topped toast,
+                cream...
+              </p>
+              <br />
+              <div class="section--recipes__timer">
+                <i class="fa-regular fa-clock"></i>
+                <span class="section--recipes__cookTime">1</span>
+              </div>
+              <div class="section--recipes__rating">
+                star star star star star
+              </div>
+            </div>
+          </div>
+          <div class="section--recipes__sections">
+            <div class="section--recipes__pod">
+              <img
+                src="./img/recipeThree.jpg"
+                alt=""
+                class="section--recipes__img"
+              />
+              <p class="section--recipes__title">
+                Udon with Chicken and Garlic Peanut Dressing
+              </p>
+              <p class="section--recipes__description">
+                Prep fava beans once, eat them for days on ricotta topped toast,
+                cream...
+              </p>
+              <br />
+              <div class="section--recipes__timer">
+                <i class="fa-regular fa-clock"></i>
+                <span class="section--recipes__cookTime">1</span>
+              </div>
+              <div class="section--recipes__rating">
+                star star star star star
+              </div>
+            </div>
+          </div>
+          <div class="section--recipes__sections">
+            <div class="section--recipes__pod">
+              <img
+                src="./img/recipeFour.jpg"
+                alt=""
+                class="section--recipes__img"
+              />
+              <p class="section--recipes__title">
+                Udon with Chicken and Garlic Peanut Dressing
+              </p>
+              <p class="section--recipes__description">
+                Prep fava beans once, eat them for days on ricotta topped toast,
+                cream...
+              </p>
+              <br />
+              <div class="section--recipes__timer">
+                <i class="fa-regular fa-clock"></i>
+                <span class="section--recipes__cookTime">1</span>
+              </div>
+              <div class="section--recipes__rating">
+                star star star star star
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

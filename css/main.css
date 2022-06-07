@@ -1,0 +1,25 @@
+/* Main Width */
+.main {
+  min-width: 50%;
+}
+
+/* Main Top */
+.main--top {
+  display: flex;
+  align-items: center;
+  max-height: 18.9rem;
+  padding: 4rem 2rem;
+  border-bottom: 0.5px dotted var(--brandMediumLightGray);
+}
+
+.main--top__welcome {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: var(--brandMediumLightGray);
+}
+
+.main--top__title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--brandNavy);
+}
