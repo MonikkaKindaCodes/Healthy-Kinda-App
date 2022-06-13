@@ -1,5 +1,6 @@
-@import url(./container.css);
 @import url(./reset.css);
 @import url(./variables.css);
+@import url(./container.css);
 @import url(./sidebar.css);
-@import url(./main.css);
+@import url(./mainTop.css);
+@import url(./sectionHero.css);
